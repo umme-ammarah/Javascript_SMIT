@@ -14,13 +14,15 @@
 // var firstName = prompt("enter your first name:");
 // var lastName = prompt("enter your last name:");
 //  function greet(firstName,lastName){
-//     alert(`hello ${firstName} ${lastName} have a nice day`)
+//     alert(`hello ${firstName} ${lastName} have a nice day`);
 //  }
 // greet(firstName,lastName);
 
 
 // 3. Write a function that adds two numbers (input by user)
 // and returns the sum of two numbers.
+
+
 
 
 // var firstNum = +prompt("enter your first number:");
@@ -74,6 +76,27 @@
 
 
 // 6. Write a function that computes factorial of a number.
+// var input = +prompt("number for factorial : ");
+// function factorial(input){
+//       var ans  =  1;
+//       if(input === 0){
+//         return input
+
+//       }
+//       else if(input === 1){
+//         return ans;
+
+//       }else{
+//         for(var i = input ;i>=1;i--){
+//             ans *= i;
+
+//       }
+//       return ans;
+     
+//       } 
+// }
+// ans = factorial(input);
+// alert(`factorial of ${input} is ${ans}`);
 
 
 // 7. Write a function that take start and end number as inputs
@@ -102,6 +125,22 @@
 // Inner function: calculateSquare()
 
 
+// var base  = +prompt("enter  base value :")
+// var perpendicular  = +prompt("enter  perpendicular value :")
+// function calculateHypotenuse(){
+//             function calculateSquare(num){
+//                num *= num;
+//                 return num;
+
+//             }
+
+//             var hypotenuse = Math.sqrt(calculateSquare(base)+calculateSquare(perpendicular))
+         
+//             alert(`hypotenuse of a right angle triangle bof given base is ${base} and given perpendicular is ${perpendicular} and the answer is ${hypotenuse} `)
+// }
+// calculateHypotenuse();
+
+
 // 9. Write a function that calculates the area of a rectangle.
 // A = width * height
 // Pass width and height in following manner:
@@ -120,4 +159,29 @@
 // }
 // var result = rectangle(width,height)
 // alert("area of ractangle is "+ result);
+
+
+// 11. Write a JavaScript function that accepts a string as a
+// parameter and converts the first letter of each word of the
+// string in upper case.
+// EXAMPLE STRING : 'the quick brown fox'
+// EXPECTED OUTPUT : 'The Quick Brown Fox'
+
+
+
+// function stringConverter (input){
+//     var input = prompt("enter  any  sentence ");
+//     var splits = input.split(" ");
+//     var valueStore="" ;
+//     for(var i = 0 ; i<splits.length;i++){
+//         valueStore+=splits[i].charAt(0).toUpperCase() + splits[i].slice(1).toLowerCase();
+// }  return valueStore;
+// }
+// var result = stringConverter();
+// document.write(result);
+
+
+
+
+
 
