@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.counter{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+    
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+label{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    
+}

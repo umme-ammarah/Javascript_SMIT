@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="clickme()">Click me</button><br><br>
+    <img onclick="alert('Galaxy S23')" src="https://www.whatmobile.com.pk/admin/images/Samsung/SamsungGalaxyS23-s.jpg"
+        alt="">
+    <img onclick="alert('Samsung FlipFlop')"
+        src="https://www.whatmobile.com.pk/admin/images/Samsung/SamsungGalaxyZFold2-s.jpg" alt="">
+    <img onclick="alert('Iphone')" src="https://www.whatmobile.com.pk/admin/images/Apple/AppleiPhone13-s.jpg" alt="">
+    <img onclick="alert('Nokia 164')" src="https://www.whatmobile.com.pk/admin/images/Nokia/Nokia1062023-s.jpg" alt="">
+    <img onclick="alert('Itel 23')" src="https://www.whatmobile.com.pk/admin/images/Oppo/OppoReno12-s.jpg"
+        alt=""><br><br>
+
+
+    <table>
+        <tr>
+            <th>index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>status</th>
+        </tr>
+        <tr id="row">
+            <td>1</td>
+            <td>Ammarah</td>
+            <td>10th</td>
+            <td><button onclick="del()">Delete</button></td>
+
+        </tr>
+        <tr id="row">
+            <td>2</td>
+            <td>hanif</td>
+            <td>12th</td>
+            <td><button onclick="del()">Delete</button></td>
+
+        </tr>
+        <tr id="row">
+            <td>3</td>
+            <td>fatima</td>
+            <td>9th</td>
+            <td><button onclick="del()">Delete</button></td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>faiza</td>
+            <td>5th</td>
+            <td><button>Delete</button></td>
+
+
+        </tr>
+    </table><br><br>
+    <img onmouseleave="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdEU5Rr3_Jnm-qpyuZUAA3OZAm4eJ_hwIIug&s'"
+        onmouseover="src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTNoejBseDhpM2V2ZW43bGJmdmRiOWE5YWd0eHd6N2wxZ2ZkamdxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3HBbltOYjoNq/giphy.webp'"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdEU5Rr3_Jnm-qpyuZUAA3OZAm4eJ_hwIIug&s" alt=""><br><br>
+
+        <div class="counter">
+            <label id="counting">0</label>
+            <div class="btns">
+    <button id="increase">+</button>
+    <button id="reset">reset</button>
+    <button id="decrease">_</button></div>
+</div>
+        <script src="app.js"></script>
+</body>
+
+</html>
